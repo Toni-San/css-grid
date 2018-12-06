@@ -10,9 +10,12 @@
 	font-family: roboto;
 }
 .grid {
-	display: grid; /*обьявлят grid*/
-/*	grid-template-columns: 250px 250px 250px; ширины и кол-во колонок*/
-	grid-template-rows: 200px 200px; /*высота и колво строк*/
+	/*для того чтобы начать работу, нам нужно определить элемент-контейнер с помощью display: grid*/
+	display: grid;
+	/* настроить размеры колонок и строк с помощью grid-template-columns и grid-template-rows */
+	grid-template-columns: 250px 250px 250px;
+	grid-template-rows: 200px 200px;
+	
 	grid-auto-rows: 100px;
 /*
 	grid-column-gap: 20px;
